@@ -60,3 +60,13 @@ class LinkedList
     end
   end
 end
+
+# Test
+list = LinkedList.new
+list.append(1)
+list.append(2)
+list.append(4)
+list.append_after(2, 3)
+list.delete(2)
+
+list.print
